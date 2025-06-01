@@ -470,15 +470,27 @@ padding-bottom: 40p;
     padding: 0 25px; 
   }
 
+.introduction .container .intro img{
+  padding: 0 30px;
+  width: 100%;
+  max-width: 100%;
+}
 
+.illustation-productive img{
+   padding: 0 30px;
+  width: 100%;
+  max-width: 100%;
+}
 
 
   .icon-2-section .text-productive {
   margin-top: 50px;
+  align-self: flex-start;
+  text-align: right;
   
   h3{
-     align-items: flex-start; 
-     text-align: left;
+      align-self: flex-start;
+    text-align: left;
   }
 }
 
@@ -494,6 +506,7 @@ padding-bottom: 40p;
   display: none;
   font-size: 5px;
 }
+
 
 
     .card .container   .icon-display1{
@@ -539,7 +552,7 @@ padding-bottom: 40p;
      }
 
      .card-grid{
-        margin-top: 50px;
+        margin-top: 10px;
      }
 
       .card-grid .card-container{
@@ -548,6 +561,12 @@ padding-bottom: 40p;
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
+
+        .profile-img img{
+       width: 20px;
+       height: 20px;
+       }
+
       }
 
       .sign-up  .sign-up-card{
@@ -613,324 +632,4 @@ footer .footer-icons{
     margin-top: 40px;
     margin-bottom: 50px;
 }
-
-
-
-
-
-
-
-@media (max-width: 1280px){
-
- .container {
-    width: 100%;
-    padding: 0 25px; 
-  }
-
-
-
-
-  .icon-2-section .text-productive {
-  margin-top: 50px;
-  
-  h3{
-     align-items: flex-start; 
-     text-align: left;
-  }
-}
-
-
-  .icon-2-section .text-productive p{
-    display: flex;
-    flex-direction: column;
-     align-items: flex-start; 
-     text-align: left;
-  }
-
-.icon-2-section .text-productive .line-break {
-  display: none;
-  font-size: 5px;
-}
-
-
-    .card .container   .icon-display1{
-        display: flex;
-        flex-direction: column;
-    }
-
-
-     .card .container  .icon-display1 .icon1{
-        margin-top: 50px;
-    }
-
-    .card .container  .icon-display1 .icon2{
-        margin-top: 50px;
-    }
-
-     .card .container  .icon-display1 .icon4{
-        margin-top: 50px;
-    }
-
-
-     .card .container .icon-2-section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-
-        img{
-            width: 300px;
-            height: 300px;
-        }
-
-        h3{
-            text-align: center;
-           
-        }
-
-        p{
-            text-align: center;
-            
-        }
-     }
-
-     .card-grid{
-        margin-top: 50px;
-     }
-
-      .card-grid .card-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1.5rem;
-      }
-
-      .sign-up  .sign-up-card{
-
-        margin: 0 20px;
-
-        .get-started{
-            display: flex;
-            flex-direction: column;
-        }
-
-
-       
-
-    input{
-        width: 350px;
-        height: 30px;
-        border-radius: 25px;
-        padding-left: 10px;
-        border:none;
-    }
-
-    button{
-         width: 350px;
-        height: 30px;
-        border-radius: 25px;
-        border:none;
-        background-color:rgb(86, 185, 185);
-        color: white;
-    }
-
-      }
-
-
-.foot .container .logo-text{
-    display: flex; 
-   flex-direction: column;
-}
-
-
-footer .footer-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-}
-
-.foot-logo-icon img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-
-
-
-}
-
-
-
-.attribution{
-    margin-top: 40px;
-    margin-bottom: 50px;
-}
-
-
-
-
-@media (max-width: 414px){
-
- .container {
-    width: 100%;
-    padding: 0 25px; 
-  }
-
-
-
-
-  .icon-2-section .text-productive {
-  margin-top: 50px;
-  
-  h3{
-     align-items: flex-start; 
-     text-align: left;
-  }
-}
-
-
-  .icon-2-section .text-productive p{
-    display: flex;
-    flex-direction: column;
-     align-items: flex-start; 
-     text-align: left;
-  }
-
-.icon-2-section .text-productive .line-break {
-  display: none;
-  font-size: 5px;
-}
-
-
-    .card .container   .icon-display1{
-        display: flex;
-        flex-direction: column;
-    }
-
-
-     .card .container  .icon-display1 .icon1{
-        margin-top: 50px;
-    }
-
-    .card .container  .icon-display1 .icon2{
-        margin-top: 50px;
-    }
-
-     .card .container  .icon-display1 .icon4{
-        margin-top: 50px;
-    }
-
-
-     .card .container .icon-2-section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-
-        img{
-            width: 300px;
-            height: 300px;
-        }
-
-        h3{
-            text-align: center;
-           
-        }
-
-        p{
-            text-align: center;
-            
-        }
-     }
-
-     .card-grid{
-        margin-top: 50px;
-     }
-
-      .card-grid .card-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1.5rem;
-      }
-
-      .sign-up  .sign-up-card{
-
-        margin: 0 20px;
-
-        .get-started{
-            display: flex;
-            flex-direction: column;
-        }
-
-
-       
-
-    input{
-        width: 350px;
-        height: 30px;
-        border-radius: 25px;
-        padding-left: 10px;
-        border:none;
-    }
-
-    button{
-         width: 350px;
-        height: 30px;
-        border-radius: 25px;
-        border:none;
-        background-color:rgb(86, 185, 185);
-        color: white;
-    }
-
-      }
-
-
-.foot .container .logo-text{
-    display: flex; 
-   flex-direction: column;
-}
-
-
-footer .footer-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-}
-
-.foot-logo-icon img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-
-
-
-}
-
-
-
-.attribution{
-    margin-top: 40px;
-    margin-bottom: 50px;
-}
-
-
-
-
-
-
-
-
-
 
