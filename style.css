@@ -472,14 +472,14 @@ padding-bottom: 40p;
 
 .introduction .container .intro img{
   padding: 0 30px;
-  width: 100%;
-  max-width: 100%;
+  width: 250px;
+  height: 250px;
 }
 
 .illustation-productive img{
    padding: 0 30px;
-  width: 100%;
-  max-width: 100%;
+   width: 250px;
+  height: 250px;
 }
 
 
@@ -565,6 +565,7 @@ padding-bottom: 40p;
         .profile-img img{
        width: 20px;
        height: 20px;
+       border-radius: 100%;
        }
 
       }
