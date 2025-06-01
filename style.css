@@ -361,6 +361,12 @@ body{
         border:none;
     }
 
+    
+        :hover input{
+      background-color:  hsl(198, 60%, 50%);
+      color: white;
+    }
+
     button{
          width: 180px;
         height: 30px;
@@ -368,6 +374,11 @@ body{
         border:none;
         background-color: hsl(198, 60%, 50%);
         color: white;
+    }
+
+    :hover button{
+      background-color: white;
+      color:  hsl(198, 60%, 50%);
     }
 
 
@@ -459,6 +470,13 @@ padding-bottom: 40p;
     margin-bottom: 10px;
 }
 
+.long-flash {
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: 50;
+  animation-fill-mode: both;
+}
+
 
 
 
@@ -468,6 +486,10 @@ padding-bottom: 40p;
  .container {
     width: 100%;
     padding: 0 25px; 
+  }
+
+  .introduction .container .intro h2{
+    color: white;
   }
 
 .introduction .container .intro img{
@@ -566,6 +588,7 @@ padding-bottom: 40p;
        width: 20px;
        height: 20px;
        border-radius: 100%;
+        object-fit: cover;
        }
 
       }
@@ -583,16 +606,18 @@ padding-bottom: 40p;
        
 
     input{
-        width: 350px;
-        height: 30px;
+      margin-top: 20px;
+         width: 250px;
+        height: 50px;
         border-radius: 25px;
         padding-left: 10px;
         border:none;
     }
 
     button{
-         width: 350px;
-        height: 30px;
+      margin-top: 5px;
+         width: 250px;
+        height: 50px;
         border-radius: 25px;
         border:none;
         background-color:rgb(86, 185, 185);
