@@ -19,7 +19,7 @@ body{
     justify-content: space-between;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    background-color: blue;
+    
 }
 
 
@@ -36,6 +36,7 @@ body{
     height: 100%;
 }
 
+
 .nav .menu ul{
     display: flex;
     gap: 1.5rem;
@@ -46,6 +47,7 @@ body{
 .nav .menu img{
     width: auto;
     height: 50px;
+    margin-top: 20px;
 }
 
 
@@ -487,7 +489,7 @@ padding-bottom: 40p;
 
 @media (max-width: 600px){
 
-  
+
 
   .nav ul li{
     font-size: x-small;
@@ -501,6 +503,13 @@ padding-bottom: 40p;
 
   .introduction .container .intro h2{
     color: white;
+    text-align: center;
+  }
+
+  .introduction .container .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 .introduction .container .intro img{
